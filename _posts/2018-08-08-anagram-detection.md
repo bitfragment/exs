@@ -6,12 +6,14 @@ tags: py
 
 Source: [Python Morsels](https://www.pythonmorsels.com/)
 
+* TOC
+{:toc}
+
+## Notes
+
 Exercise is to detect an anagram, with bonuses for ignoring spaces,
 punctuation, and diacritical marks on Latin characters (but not the characters
 themselves).
-
-* TOC
-{:toc}
 
 ## My solution
 
