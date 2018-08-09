@@ -1,0 +1,18 @@
+title: exs
+email: 
+description: >
+  A log of daily programming chrestomathy and other exercise
+baseurl: "/exs"
+url: "http://bitfragment.net"
+twitter_username: bitfragmented
+github_username:  bitfragment
+
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # all files
+      type: "posts"
+    values:
+      layout: post
