@@ -1,5 +1,5 @@
 ---
-title: "File manipuation"
+title: "File manipulation"
 date: 2018-12-15
 tags: py
 ---
