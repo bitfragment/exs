@@ -1,7 +1,7 @@
 ---
 title: "Sum timestamps"
 date: 2018-12-17
-tags: py
+tags: python
 ---
 
 Source: [Python Morsels](https://www.pythonmorsels.com/)

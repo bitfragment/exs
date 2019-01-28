@@ -1,7 +1,7 @@
 ---
 title: "Strip leading"
 date: 2018-09-15
-tags: py
+tags: python
 ---
 
 Source: [Python Morsels](https://www.pythonmorsels.com/)

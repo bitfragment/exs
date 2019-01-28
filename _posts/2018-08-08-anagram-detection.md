@@ -1,7 +1,7 @@
 ---
 title: "Anagram detection"
 date: 2018-08-08
-tags: py
+tags: python
 ---
 
 Source: [Python Morsels](https://www.pythonmorsels.com/)

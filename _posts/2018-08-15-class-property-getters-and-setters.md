@@ -1,7 +1,7 @@
 ---
 title: "Class property getters and setters"
 date: 2018-08-15
-tags: py
+tags: python
 ---
 
 Source: Source: [Python Morsels](https://www.pythonmorsels.com/)

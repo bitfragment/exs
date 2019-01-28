@@ -1,7 +1,7 @@
 ---
 title: "File manipulation"
 date: 2018-12-15
-tags: py
+tags: python
 ---
 
 Source: [Python Morsels](https://www.pythonmorsels.com/)

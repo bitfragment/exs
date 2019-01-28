@@ -1,7 +1,7 @@
 ---
 title: "Term frequency (archaic)"
 date: 2018-08-09
-tags: py
+tags: python
 ---
 
 Source: [crista/exercises-in-programming-style: Comprehensive collection of programming styles using a simple computational task, term frequency](https://github.com/crista/exercises-in-programming-style)

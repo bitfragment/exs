@@ -1,7 +1,7 @@
 ---
 title: "Restructure a sequence"
 date: 2018-12-20
-tags: py
+tags: python
 ---
 
 Source: [Python Morsels](https://www.pythonmorsels.com/)

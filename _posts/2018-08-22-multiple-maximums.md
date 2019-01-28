@@ -1,7 +1,7 @@
 ---
 title: "Multiple maximums"
 date: 2018-08-22
-tags: py
+tags: python
 ---
 
 Source: [Python Morsels](https://www.pythonmorsels.com/)

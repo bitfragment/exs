@@ -1,7 +1,7 @@
 ---
 title: "Unique items"
 date: 2018-09-01
-tags: py
+tags: python
 ---
 
 Source: [Python Morsels](https://www.pythonmorsels.com/)
