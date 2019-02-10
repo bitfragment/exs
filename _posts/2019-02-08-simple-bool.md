@@ -1,7 +1,7 @@
 ---
 title: "Simple boolean evaluation"
 date: 2019-02-08
-tags: py
+tags: python
 ---
 
 ## Source
