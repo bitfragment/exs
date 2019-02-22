@@ -1,5 +1,5 @@
 ---
-title: "Cache array elements in hash table"
+title: "Cache array elements"
 date: 2019-02-22
 tags: python
 ---
