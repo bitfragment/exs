@@ -12,7 +12,7 @@ Return the last nonblank character in a string.
 ```
 Compiled as Cobol 2002 by `cobc` (GNU Cobol) 1.1.0.
 
-```
+```cobol
 program-id. last_nonblank is initial.
     data division.
         working-storage section.
