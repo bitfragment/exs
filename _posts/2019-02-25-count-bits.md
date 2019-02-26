@@ -4,7 +4,7 @@ date: 2019-02-25
 tags: c++
 ---
 
-Source: [Elements of Programming Interviews], C++
+Source: [Elements of Programming Interviews], C++ Edition
 
 [Elements of Programming Interviews]: https://elementsofprogramminginterviews.com/
 
