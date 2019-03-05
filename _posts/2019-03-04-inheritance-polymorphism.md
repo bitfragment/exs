@@ -8,9 +8,6 @@ Source: Programmr, [Report Info]
 
 [Report Info]: http://www.programmr.com/report-info
 
-* TOC
-{:toc}
-
 
 ## Description
 
