@@ -1,7 +1,7 @@
 ---
 title: "Count bits"
 date: 2019-04-30
-tags: java
+tags: java, core
 ---
 
 Source: [Elements of Programming Interviews], Java Edition

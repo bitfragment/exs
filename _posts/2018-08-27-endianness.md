@@ -1,7 +1,7 @@
 ---
 title: "Endianness"
 date: 2018-08-27
-tags: c
+tags: c, core
 published: true
 ---
 

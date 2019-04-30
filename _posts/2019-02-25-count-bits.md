@@ -1,7 +1,7 @@
 ---
 title: "Count bits"
 date: 2019-02-25
-tags: c++
+tags: c++, core
 ---
 
 Source: [Elements of Programming Interviews], C++ Edition

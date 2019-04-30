@@ -1,7 +1,7 @@
 ---
 title: "Disassembly"
 date: 2018-10-07
-tags: c
+tags: c, core
 published: true
 ---
 

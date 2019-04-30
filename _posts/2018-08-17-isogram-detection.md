@@ -1,7 +1,7 @@
 ---
 title: "Isogram detection"
 date: 2018-08-17
-tags: java
+tags: java, core
 ---
 
 Source: [Cracking the Coding Interview](http://www.crackingthecodinginterview.com/)

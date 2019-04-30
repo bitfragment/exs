@@ -1,7 +1,7 @@
 ---
 title: "Bitwise operations"
 date: 2018-09-24
-tags: c
+tags: c, core
 published: true
 ---
 

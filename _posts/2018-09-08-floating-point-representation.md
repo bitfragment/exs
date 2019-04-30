@@ -1,7 +1,7 @@
 ---
 title: "Floating-point representation"
 date: 2018-09-08
-tags: c
+tags: c, core
 published: true
 ---
 

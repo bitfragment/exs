@@ -1,7 +1,7 @@
 ---
 title: "Doubly linked list"
 date: 2018-11-15
-tags: c
+tags: c, core
 published: true
 ---
 

@@ -5,13 +5,29 @@ layout: default
 <img src="images/banner.png" style="margin-bottom:2em">
 
 <div class="home">
+
+<h2>Core exercises</h2>
  <ul class="post-list">
     {% for post in site.posts %}
+    {% if post.tags contains "core" %}
+      <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+<h2>Other exercises</h2>
+ <ul class="post-list">
+    {% for post in site.posts %}
+    {% unless post.tags contains "core" %}
       <li>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           · <span class="post-meta">{{ post.tags }}</span>
       </li>
+    {% endunless %}
     {% endfor %}
   </ul>
 

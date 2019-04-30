@@ -1,7 +1,7 @@
 ---
 title: "Caching sequential web proxy"
 date: 2018-11-29
-tags: c
+tags: c, core
 published: true
 ---
 
