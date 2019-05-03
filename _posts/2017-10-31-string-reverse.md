@@ -13,7 +13,7 @@ Given a string, return it reversed.
 
 ## My solution
 
-```lisp
+```racket
 #lang racket
 
 
@@ -33,7 +33,7 @@ Given a string, return it reversed.
 
 ## Tests
 
-```lisp
+```racket
 #lang racket
 
 (require rackunit rackunit/text-ui "reverse.rkt")
