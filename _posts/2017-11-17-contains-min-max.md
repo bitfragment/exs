@@ -34,3 +34,17 @@ def contains_minmax(lst):
             return False
     return True
 ```
+
+## Tests
+
+```py
+from contains_minmax import contains_minmax
+
+def test_contains_minmax_true():
+    """Should return true for array containing integer sequence."""
+    assert contains_minmax([4, 2, 1, 3, 5, 6])
+
+def test_contains_minmax_false():
+    """Should return false for array not containing integer sequence."""
+    assert not contains_minmax([0, 2, 1, 3, 5, 6])
+```
