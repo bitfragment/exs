@@ -15,8 +15,6 @@ Source: [Problem - 71A - Codeforces]
 ## My solution
 
 ```py
-"""Numeronym."""
-
 def solution(x: str, maxlen: int = 10) -> str:
     """Transform a string into a numeronym.
 
@@ -49,8 +47,6 @@ def solution(x: str, maxlen: int = 10) -> str:
 ## Tests
 
 ```py
-"""Tests for solution.py."""
-
 from hypothesis import given, strategies as st
 from solution import solution
 
