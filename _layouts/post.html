@@ -19,6 +19,10 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
+    {% if page.src-title and page.src-url %} 
+      <h2>Source</h2>
+      <p><a href="{{ page.src-url }}">{{ page.src-title}}</a></p>
+    {% endif %}
     {{ content }}
   </div>
 </article>
