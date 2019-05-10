@@ -1,8 +1,8 @@
 ---
-title: 
+title: Sum digits
 date: 2019-05-09
 tags: python
-src-title: Sum of digits
+src-title: "Code Abbey: Sum of digits"
 src-url: https://www.codeabbey.com/index/task_view/sum-of-digits
 ---
 
