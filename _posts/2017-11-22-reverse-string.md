@@ -20,6 +20,7 @@ Bell Telephone Laboratories.
 
 ## My solution
 
+```snobol
 f1        define('reverse(s)','lp')   :(test)
 lp        s arb len(1) . ch = ''      :f(reverse)
           rstr = ch rstr              :(lp)
@@ -31,3 +32,5 @@ test      res = reverse('foobar')
           output = 'Error, expected "raboof", actual: ' res
 
 end
+```
+
