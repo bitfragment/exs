@@ -18,7 +18,7 @@ src-url: https://www.coderbyte.com/editor/guest:First%20Factorial:Python
 ```py
 def solution1(num): 
     first = 1
-    for factor in range(1, num + 1):
+    for factor in range(2, num + 1):
         first *= factor
     return first
 ```
