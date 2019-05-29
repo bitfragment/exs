@@ -5,7 +5,7 @@ tags: go
 ---
 
 Alan A. A. Donovan and Brian W. Kernighan, *[The Go Programming Language].*
-Addison-Wesley, 2016, Chapter 2, Program Structure
+Addison-Wesley, 2016, Chapter 2, Program Structure, Exercise 2.1
 
 [The Go Programming Language]: http://www.gopl.io/
 
