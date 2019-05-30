@@ -1,5 +1,5 @@
 ---
-title: "TDD: Multi-currency money"
+title: "TDD: multi-currency money"
 date: 2019-05-29
 tags: python
 src-title: "Kent Beck, Test-Driven Development by Example"
