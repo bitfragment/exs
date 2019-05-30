@@ -56,6 +56,7 @@ class Dollar:
     
     def times(self, multiplier):
         pass
+```
 
 Fifth iteration: add class attribute `amount`. Fails with
 AssertionError: assert 5 == 10.
