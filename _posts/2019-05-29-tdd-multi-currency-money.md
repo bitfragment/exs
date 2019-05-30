@@ -11,7 +11,8 @@ Chapter 1: "Multi-Currency Money"
 
 ## Iterations
 
-First test. There is no other code!
+First test. There is no other code! Fails with "NameError: name 'Dollar' is
+not defined".
 
 ```py
 def test_multiplication():
