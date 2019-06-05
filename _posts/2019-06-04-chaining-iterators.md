@@ -6,7 +6,7 @@ src-title: "Python Tricks: The Book"
 src-url: https://realpython.com/products/python-tricks-book/
 ---
 
-From §6.7 Iterator Chains
+§6.7 Iterator Chains
 
 ## Contents
 {:.no_toc}
