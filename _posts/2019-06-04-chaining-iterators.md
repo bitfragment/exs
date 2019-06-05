@@ -2,9 +2,11 @@
 title: Chaining iterators
 date: 2019-06-04
 tags: python
-src-title: "*Python Tricks: The Book* §6.7 Iterator Chains"
+src-title: "Python Tricks: The Book"
 src-url: https://realpython.com/products/python-tricks-book/
 ---
+
+From §6.7 Iterator Chains
 
 ## Contents
 {:.no_toc}
