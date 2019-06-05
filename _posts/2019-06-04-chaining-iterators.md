@@ -8,12 +8,6 @@ src-url: https://realpython.com/products/python-tricks-book/
 
 §6.7 Iterator Chains
 
-## Contents
-{:.no_toc}
-
-* TOC
-{:toc}
-
 ## Using generator functions
 
 ```py
