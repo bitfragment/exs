@@ -2,7 +2,7 @@
 title: Chaining iterators
 date: 2019-06-04
 tags: python
-src-title: "Python Tricks: The Book – Real Python"
+src-title: "*Python Tricks: The Book* §6.7 Iterator Chains"
 src-url: https://realpython.com/products/python-tricks-book/
 ---
 
@@ -11,10 +11,6 @@ src-url: https://realpython.com/products/python-tricks-book/
 
 * TOC
 {:toc}
-
-## Description
-
-§6.7 Iterator Chains
 
 ## Using generator functions
 
