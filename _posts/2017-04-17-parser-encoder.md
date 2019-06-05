@@ -1,7 +1,7 @@
 ---
 title: Parser-encoder
 date: 2017-04-17
-tags: core, javascript
+tags: javascript, core
 ---
 
 ## Contents
