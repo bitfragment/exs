@@ -2,6 +2,7 @@
 title: Dictionary lookup
 date: 2019-06-11
 tags: python
+src-author: "Dan Bader"
 src-title: "Python Tricks: The Book"
 src-url: https://realpython.com/products/python-tricks-book/
 ---
