@@ -4,16 +4,15 @@ date: 2017-04-15
 tags: javascript, core
 ---
 
+Implementation of a [MiniStringFuck] interpreter.
+
+[MiniStringFuck]: http://esolangs.org/wiki/MiniStringFuck
+
 ## Contents
 {:.no_toc}
 
 * TOC
 {:toc}
-
-Implementation of a [MiniStringFuck] interpreter.
-
-[MiniStringFuck]: http://esolangs.org/wiki/MiniStringFuck
-
 
 ## 1. Utilities
 
