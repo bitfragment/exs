@@ -14,7 +14,7 @@ const myXor = (a, b) =>
 ```
 
 
-## **myCalc()**
+## myCalc()
 
 ```js
 > myCalc(1, '*', 0)
