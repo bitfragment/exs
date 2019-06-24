@@ -44,7 +44,7 @@ const mirror = obj =>
     }, {});
 ```
 
-## 2. Reversible look-up
+### 2. Reversible look-up
 
 Together, the original object and the mirrored object permit "reversible"
 look-up via short-circuit evaluation.
