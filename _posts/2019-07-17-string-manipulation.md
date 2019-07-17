@@ -2,7 +2,8 @@
 title: String manipulation
 date: 2019-07-17
 tags: python
-src-title: "Edabit: String Flips"
+src-author: Edabit
+src-title: "String Flips"
 src-url: https://edabit.com/challenge/JsLu5qWsJtuJuBZT4
 ---
 
