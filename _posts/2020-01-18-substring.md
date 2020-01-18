@@ -1,5 +1,5 @@
 ---
-title: Longest substring repeating character
+title: Substring repeating character
 date: 2020-01-18
 tags: python
 src-author: CheckiO
