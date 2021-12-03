@@ -22,9 +22,7 @@ Hello world.
 ```go
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func helloWorld() {
 	fmt.Println("Hello, Dünya")
