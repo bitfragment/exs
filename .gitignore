@@ -1,6 +1,8 @@
 exercism/
 _site
 .jekyll-metadata
+.jekyll-cache/
+.ruby-version
 .sass-cache
 *.code-workspace
 *.sublime-project
