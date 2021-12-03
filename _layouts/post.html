@@ -19,9 +19,15 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    {% if page.src-author and page.src-title and page.src-url %} 
+    {% if page.src-author and page.src-title %} 
       <h2>Source</h2>
-      <p>{{ page.src-author }}, <a href="{{ page.src-url }}">{{ page.src-title}}</a></p>
+      <p>{{ page.src-author }}, 
+        {% if page.src-url }
+          <a href="{{ page.src-url }}">{{ page.src-title }}</a>
+        {% else %}
+          {{ page.src-title }}
+        {% endif %}
+      </p>
     {% endif %}
     {{ content }}
   </div>
