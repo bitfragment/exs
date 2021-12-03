@@ -3,7 +3,7 @@ title: Pushbutton device
 date: 2021-12-02
 tags: arduino
 src-author: Scott Fitzgerald and Michael Shiloh
-src-title: 'The Arduino Projects Book Chapter 2: Spaceship Interface'
+src-title: '<em>The Arduino Projects Book</em> Chapter 2: Spaceship Interface'
 src-url: 
 ---
 
