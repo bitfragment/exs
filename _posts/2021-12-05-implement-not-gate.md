@@ -51,10 +51,11 @@ If that value is 0, the Nand gate returns 1, inverting the Not gate's
 input. Likewise, if that value is 1, the Nand gate returns 0, an
 inversion of the Not gate's input:
 
-| Not input | Nand input A | Nand input B | Nand output |
-|-----------|--------------|--------------|-------------|
-| 0         | 0            | 0            | 1           |
-| 1         | 1            | 1            | 0           |
+```
+Not input | Nand input A | Nand input B | Nand output
+0         | 0            | 0            | 1
+1         | 1            | 1            | 0
+```
 
 (Other implementations are possible.)
  
