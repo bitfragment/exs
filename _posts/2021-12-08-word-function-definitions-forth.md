@@ -1,5 +1,5 @@
 ---
-title: 'Word (function) definitions'
+title: 'Word definitions'
 date: 2021-12-08
 tags: forth
 src-author: Leo Brodie
@@ -33,10 +33,8 @@ src-url: https://www.forth.com/starting-forth/1-forth-stacks-dictionary/
 : gift ( -- ) ." double bind of a possible impossible  " ;
 : giver ( -- ) ." Jacques " ;
 : thanks ( -- ) ." Dear " giver ." thanks for the " gift ;
-
-." thanks => " thanks cr
+thanks
 ```
-
 
 ## Problem 2
 
@@ -47,53 +45,43 @@ src-url: https://www.forth.com/starting-forth/1-forth-stacks-dictionary/
 ### My solution
 
 ```forth
-: ten.less ( n -- n-10 ) 10 - . ;
-
-." 20 ten.less => " 20 ten.less cr
+: tenless ( n -- n-10 ) 10 - ;
+: test-tenless assert( 20 tenless 10 = ) ;
+test-tenless
 ```
-
 
 ## Problem 3
 
-After entering the words in Problem 1, enter a new definition for GIVER to
-print someone else’s name, then execute THANKS again. Can you explain why
-THANKS still prints out the first giver’s name?
+> After entering the words in Problem 1, enter a new definition for GIVER 
+> to print someone else’s name, then execute THANKS again. Can you explain
+> why THANKS still prints out the first giver’s name?
 
 ### My solution
 
+Since `giver` is part of the definition of `thanks`, it was presumably
+compiled into `thanks`. Let's try redefining `thanks`.
+
 ```forth
 : giver ( -- ) ." Luce " ;
-
-." `giver` was redefined with a different person name. " cr
-."   However, when `thanks` is called, you should see the original name:" cr
-." thanks => " thanks
-
-." Since `giver` is part of the definition of `thanks`, it was presumably " cr
-."   compiled into `thanks`. Let's try redefining `thanks`." cr
-
-: thanks ( -- ) ." Dear " giver ." thanks for the " gift cr ;
-
-." thanks => " thanks
+: thanks ( -- ) ." Dear " giver ." thanks for the " gift ;
+thanks
 ```
 
-
-## Exit
-
-```forth
-bye
-```
-
-
-
-## Output
+## Execute this file
 
 ```txt
-thanks => Dear Jacques thanks for the double bind of a possible impossible  
-20 ten.less => 10 
-`giver` was redefined with a different person name. 
-  However, when `thanks` is called, you should see the original name:
-thanks => Dear Jacques thanks for the double bind of a possible impossible  
-Since `giver` is part of the definition of `thanks`, it was presumably 
-  compiled into `thanks`. Let's try redefining `thanks`.
-thanks => Dear Luce thanks for the double bind of a possible impossible  
+$ codedown forth < 2021-12-08-word-function-definitions-forth.md | grep . | gforth
+Gforth 0.7.3, Copyright (C) 1995-2008 Free Software Foundation, Inc.
+Gforth comes with ABSOLUTELY NO WARRANTY; for details type `license'
+Type `bye' to exit
+: gift ( -- ) ." double bind of a possible impossible  " ;  ok
+: giver ( -- ) ." Jacques " ;  ok
+: thanks ( -- ) ." Dear " giver ." thanks for the " gift ;  ok
+thanks Dear Jacques thanks for the double bind of a possible impossible   ok
+: tenless ( n -- n-10 ) 10 - ;  ok
+: test-tenless assert( 20 tenless 10 = ) ;  ok
+test-tenless  ok
+: giver ( -- ) ." Luce " ; redefined giver   ok
+: thanks ( -- ) ." Dear " giver ." thanks for the " gift ; redefined thanks   ok
+thanks Dear Luce thanks for the double bind of a possible impossible   ok
 ```
