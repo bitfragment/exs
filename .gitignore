@@ -6,3 +6,4 @@ _site
 .sass-cache
 *.code-workspace
 *.sublime-project
+settings.json
