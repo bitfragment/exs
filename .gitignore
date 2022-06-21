@@ -6,4 +6,4 @@ _site
 .sass-cache
 *.code-workspace
 *.sublime-project
-settings.json
+_posts/.vscode
