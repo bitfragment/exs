@@ -444,12 +444,12 @@ testTest();
 Scheme:
 
 ```txt
-$ codedown scheme < 1-1-elements-of-programming-scm.md | grep . \
+$ codedown scheme < 2022-06-16-expressions.md | grep . \
 > /tmp/tmp.scm && /Applications/Racket\ v8.3/bin/racket /tmp/tmp.scm
 ```
 
 JavaScript:
 
 ```txt
-$ codedown js < 1-1-elements-of-programming-js.md | grep . | node
+$ codedown js < 2022-06-16-expressions.md | grep . | node
 ```
