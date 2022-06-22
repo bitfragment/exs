@@ -19,6 +19,10 @@ src-url: https://sicp.sourceacademy.org/chapters/1.1.6.html
 Using the occasion of the 2022 JavaScript edition of *SICP* to work 
 through the original again, alongside this new edition.
 
+Reference solutions provided in the [Comparison Edition].
+
+[Comparison Edition]: https://sicp.sourceacademy.org/index.html
+
 
 ## Setup
 
@@ -178,6 +182,14 @@ My solution (without using anything not yet introduced in the book):
 (test-e1.3)
 ```
 
+Reference solution provided in the [Comparison Edition]:
+
+> ```scheme
+> (define (f x y z)
+>    (let ((smallest (if (> x y) (if (> y z) z y) (if (> x z) z x))))
+>       (- (+ (square x) (square y) (square z)) (square smallest))))
+> ```
+
 
 ## Exercise 1.3 (JavaScript)
 
@@ -225,8 +237,92 @@ testMin();
 testEOnePointThree();
 ```
 
+Reference solution provided in the [Comparison Edition]:
+
+> ```js
+> function f(x, y, z) {
+>     return square(x) + square(y) + square(z) -
+>         // subtract the square of the smallest
+>         square(x > y ? (y > z ? z : y) : (x > z ? z : x));
+> }
+> ```
+
 
 ## Exercise 1.4 (Scheme)
+
+> Observe that our model of evaluation allows for combinations whose
+> operators are compound expressions. Use this observation to describe
+> the behavior of the following procedure:
+>
+> ```scheme
+> (define (a-plus-abs-b a b)
+>   ((if (> b 0) + -) a b))
+> ```
+
+My solution:
+
+```scheme
+(define (a-plus-abs-b a b)
+  ((if (> b 0) + -) a b))
+
+; Because the subexpression `(> b 0)` will be evaluated using
+; applicative- order evaluation, its resolution can be used to choose
+; one of the arithemtic operators `+` or `-`. To illustrate:
+(assert (=  3 ((if (> 1 0) + -) 1 2)))
+(assert (= -1 ((if (> 0 1) + -) 1 2)))
+
+; Thus, we test `a-plus-abs-b` as follows:
+(define (test-a-plus-abs-b)
+  (assert (= 1 (a-plus-abs-b 0 1)))
+  (assert (= 1 (a-plus-abs-b 1 0)))
+)
+
+(test-a-plus-abs-b)
+```
+
+
+## Exercise 1.4 (JavaScript)
+
+> Observe that our model of evaluation allows for applications whose
+> function expressions are compound expressions. Use this observation to
+> describe the behavior of a_plus_abs_b:
+>
+> ```js
+> function plus(a, b) { return a + b; }
+> 
+> function minus(a, b) { return a - b; }
+> 
+> function a_plus_abs_b(a, b) {
+>     return (b >= 0 ? plus : minus)(a, b);
+> }
+> ```
+
+My solution:
+
+```js
+function plus(a, b) { return a + b; }
+
+function minus(a, b) { return a - b; }
+
+function aPlusAbsB(a, b) {
+    return (b >= 0 ? plus : minus)(a, b);
+}
+
+// My explanation is the same as for the Scheme solution.
+assert( 3 === (1 > 0 ? plus : minus)(1, 2))
+assert(-1 === (0 > 1 ? plus : minus)(1, 2))
+
+function testAPlusAbsB() {
+    assert(1 === aPlusAbsB(0, 1));
+    assert(1 === aPlusAbsB(1, 0));
+    assert(2 === aPlusAbsB(1, -1));
+}
+
+testAPlusAbsB();
+```
+
+
+## Exercise 1.5 (Scheme)
 
 > Ben Bitdiddle has invented a test to determine whether the interpreter
 > he is faced with is using applicative-order evaluation or normal-order
@@ -286,7 +382,7 @@ My solution:
 ```
 
 
-## Exercise 1.4 (JavaScript)
+## Exercise 1.5 (JavaScript)
 
 > Ben Bitdiddle has invented a test to determine whether the interpreter
 > he is faced with is using applicative-order evaluation or normal-order
