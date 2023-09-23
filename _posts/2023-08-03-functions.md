@@ -326,6 +326,8 @@ let rec filter f l =
 > and only if the function returns `true` for every element of the list.
 > Give examples of its use.
 
+### My solution
+
 ```ocaml
 let rec for_all f l =
   match l with [] -> false (* reject meaningless argument *)
@@ -346,7 +348,7 @@ let _ =
   ;;
 ```
 
-## Solution provided in book
+### Solution provided in book
 
 ...is far more elegant than mine, using the logical conjunction `&&`
 to limit recursion (by returning as soon as `f h` evaluates to false):
