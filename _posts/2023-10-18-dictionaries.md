@@ -335,6 +335,8 @@ let rec union a b = match a with
   | (k, v)::t -> add k v (union t b)
 ```
 
+## Execute this file
+
 ```txt
 $ codedown ocaml < 2023-10-18-dictionaries.md | grep . | ocaml -stdin
 ```

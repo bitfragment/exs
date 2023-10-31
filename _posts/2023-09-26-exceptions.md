@@ -260,6 +260,8 @@ interpretation and are non-viable without additional documentation.
 
 None provided.
 
+## Execute this file
+
 ```txt
 $ codedown ocaml < 2023-09-26-exceptions.md | grep . | ocaml -stdin
 ```
