@@ -10,10 +10,6 @@ github_username:  bitfragment
 markdown: kramdown
 highlighter: rouge
 
-toc:
-    min_level: 1
-    max_level: 2
-
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
