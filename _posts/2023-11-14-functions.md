@@ -290,6 +290,8 @@ let _ = assert ( [0]       = firsts 0 [[]]                          );
 
 ...is identical to my solution.
 
+## Execute this file
+
 ```txt
 $ codedown ocaml < 2023-11-14-functions.md | grep . | ocaml -stdin
 ```
